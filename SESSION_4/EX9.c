@@ -12,7 +12,7 @@ int main (){
 	scanf("%d",&year);
 	int hop_le = 1;
 	if(year <= 0){
-		hop_le = 0;           // kiem tra hop le
+		hop_le = 0;           
 	}
 	if(month<1 && month >12){
 		hop_le = 0;
@@ -46,3 +46,4 @@ int main (){
 	}
 	return 0;
 }
+
